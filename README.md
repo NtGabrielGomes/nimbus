@@ -21,6 +21,12 @@ Nimbus is a userland (ring 3) rootkit for Windows that hides everything carrying
 
 Rename your evil process to `nimbus_xxx.exe` and your evil folders to `nimbus_xxxx`, then run `nimbus_installer.exe` as administrator (it installs the `nimbus` service and starts injecting). Everything whose name contains `nimbus` (case-insensitive) becomes invisible to processes carrying the hook.
 
+
+
+https://github.com/user-attachments/assets/45b7d418-270c-42be-b43c-b1a5ea60d94b
+
+
+
 ## Build
 
 Cross build with mingw-w64:
